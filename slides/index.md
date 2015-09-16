@@ -6,7 +6,8 @@
 
 ***
 
-### What is FsReveal??
+### Leading as a Grunt
+## Finding Leadership Opportunities Wherever You Find Yourself
 
 - Generates [reveal.js](http://lab.hakim.se/reveal-js/#/) presentation from [markdown](http://daringfireball.net/projects/markdown/)
 - Utilizes [FSharp.Formatting](https://github.com/tpetricek/FSharp.Formatting) for markdown parsing
