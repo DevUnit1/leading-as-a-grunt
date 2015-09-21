@@ -6,148 +6,324 @@
 
 ***
 
-### Leading as a Grunt
-## Finding Leadership Opportunities Wherever You Find Yourself
+## Leading as a Grunt
+#### Finding Leadership Opportunities Wherever You Find Yourself
 
-- Generates [reveal.js](http://lab.hakim.se/reveal-js/#/) presentation from [markdown](http://daringfireball.net/projects/markdown/)
-- Utilizes [FSharp.Formatting](https://github.com/tpetricek/FSharp.Formatting) for markdown parsing
-- Get it from [http://fsprojects.github.io/FsReveal/](http://fsprojects.github.io/FsReveal/)
+John Strobel | @devunit1
 
-![FsReveal](images/logo.png)
+<img src="images/JSBeardLogo.svg" alt="John Strobel" height=150px width=150px>
 
 ***
 
-### Reveal.js
-
-- A framework for easily creating beautiful presentations using HTML.
-
-
-> **Atwood's Law**: any application that can be written in JavaScript, will eventually be written in JavaScript.
+# Welcome and Introduction
 
 ***
 
-### FSharp.Formatting
+## A bit about my own story
 
-- F# tools for generating documentation (Markdown processor and F# code formatter).
-- It parses markdown and F# script file and generates HTML or PDF.
-- Code syntax highlighting support.
-- It also evaluates your F# code and produce tooltips.
+<img src="images/JSBeardLogo.svg" alt="John Strobel" height=300px width=300px>
+
+---
+
+5 years at Progressive as a developer
+
+![Six Calendars](images/Six_Calendars.png)
+
+---
+
+On a project for two years
+
+![Two Calendars](images/Two_Calendars.png)
+
+---
+
+The first year was just learning
+
+![Notes on Technical Things](images/TechnicalNotes.png)
+
+---
+
+Started looking for leadership opportunities
+
+![Pursuit Of Authority](images/PursuitOfAuthority.png)
+
+---
+
+But you can't have authority as a newbie
+
+![Authority Evades Me](images/AuthorityEvades.png)
+
+---
+
+Leaders are defined by their followers
+
+![Leaders Have Followers](images/LeadersHaveFollowers.png)
+
+---
+
+Through Observation, this became clear:
+
+![Leadership is comprised of Authority and Influence](images/LeadershipAuthAndInf.png)
 
 ***
 
-### Syntax Highlighting
+## Authority
 
-#### F# (with tooltips)
-
-    let a = 5
-    let factorial x = [1..x] |> List.reduce (*)
-    let c = factorial a
+![Authority Logo](images/AuthAsCarrotAndStick.png)
 
 ---
 
-#### C#
+### Authority
+"The power or right to give orders, make decisions, and enforce obedience"
 
-    [lang=cs]
-    using System;
-
-    class Program
-    {
-        static void Main()
-        {
-            Console.WriteLine("Hello, world!");
-        }
-    }
+-- Oxford Dictionaries via Bing
 
 ---
 
-#### JavaScript
+More simply
 
-    [lang=js]
-    function copyWithEvaluation(iElem, elem) {
-        return function (obj) {
-            var newObj = {};
-            for (var p in obj) {
-                var v = obj[p];
-                if (typeof v === "function") {
-                    v = v(iElem, elem);
-                }
-                newObj[p] = v;
-            }
-            if (!newObj.exactTiming) {
-                newObj.delay += exports._libraryDelay;
-            }
-            return newObj;
-        };
-    }
-
+![Horse and Rider with Carrot and Stick](images/RiderCarrotStickHorse.png)
 
 ---
 
-#### Haskell
- 
-    [lang=haskell]
-    recur_count k = 1 : 1 : 
-        zipWith recurAdd (recur_count k) (tail (recur_count k))
-            where recurAdd x y = k * x + y
+Rewards for "good" behavior
 
-    main = do
-      argv <- getArgs
-      inputFile <- openFile (head argv) ReadMode
-      line <- hGetLine inputFile
-      let [n,k] = map read (words line)
-      printf "%d\n" ((recur_count k) !! (n-1))
-
-*code from [NashFP/rosalind](https://github.com/NashFP/rosalind/blob/master/mark_wutka%2Bhaskell/FIB/fib_ziplist.hs)*
+![Horse getting a carrot](images/Destinationville.png)
 
 ---
 
-### SQL
+Punishments for "bad" behavior
 
-    [lang=sql]
-    select *
-    from
-    (select 1 as Id union all select 2 union all select 3) as X
-    where Id in (@Ids1, @Ids2, @Ids3)
-
-*sql from [Dapper](https://code.google.com/p/dapper-dot-net/)*
+![Man selling his horse](images/Otherton.png)
 
 ---
 
-### C/AL
+Spectrum of Authority
 
-    [lang=cal]
-    PROCEDURE FizzBuzz(n : Integer) r_Text : Text[1024];
-    VAR
-      l_Text : Text[1024];
-    BEGIN
-      r_Text := '';
-      l_Text := FORMAT(n);
+![Authority spectrum](images/AuthoritySpectrum.png)
 
-      IF (n MOD 3 = 0) OR (STRPOS(l_Text,'3') > 0) THEN
-        r_Text := 'Fizz';
-      IF (n MOD 5 = 0) OR (STRPOS(l_Text,'5') > 0) THEN
-        r_Text := r_Text + 'Buzz';
-      IF r_Text = '' THEN
-        r_Text := l_Text;
-    END;
+---
+
+The drawback: I don't control authority
+
+---
+
+Leadership is more than just authority...
 
 ***
 
-**Bayes' Rule in LaTeX**
+## Influence
 
-$ \Pr(A|B)=\frac{\Pr(B|A)\Pr(A)}{\Pr(B|A)\Pr(A)+\Pr(B|\neg A)\Pr(\neg A)} $
+![Cowboy](images/Rider.png)
+
+---
+
+### Influence
+"The capacity to have an effect on the character, development, or behavior of someone or something, or the effect itself"
+
+-- The Oxford Dictionary via Bing
+
+---
+
+Put more simply
+
+![Rider Callout](images/RiderCallout.png)
+
+---
+
+Riders suggest destinations, but the horse chooses
+
+![Horse And Rider Reading Map](images/RiderSuggests.png)
+
+---
+
+Riders and horses have good relationships (or carrots and sticks)
+
+![Horse and Rider playing checkers](images/HorseAndRiderCheckers.png)
+
+---
+
+Influence can be negative
+
+![Angry horse, oblivious rider](images/ObliviousRider.png)
+
+---
+
+Negative influence has effects, too!
+
+![Horse moves to Otherton](images/Separation.png)
+
+---
+
+Negativity and positivity both ripple outwards
+
+![Obligatory ripples](images/Ripples.png)
+
+---
+
+The spectrum of Influence
+
+![Influence Spectrum](images/InfluenceSpectrum.png)
+
+---
+
+The drawback: I don't control influence
+
+---
+
+Well shucks
+
+![Sad face](images/Sadface.png)
 
 ***
 
-### The Reality of a Developer's Life 
+## On variable control
 
-**When I show my boss that I've fixed a bug:**
-  
-![When I show my boss that I've fixed a bug](http://www.topito.com/wp-content/uploads/2013/01/code-07.gif)
-  
-**When your regular expression returns what you expect:**
-  
-![When your regular expression returns what you expect](http://www.topito.com/wp-content/uploads/2013/01/code-03.gif)
-  
-*from [The Reality of a Developer's Life - in GIFs, Of Course](http://server.dzone.com/articles/reality-developers-life-gifs)*
+![Leadership Spectrum 2D](images/LeadershipSpectrum2D.png)
 
+---
+
+#### I made a list
+
+![List of things I can't control](images/UncontrolList.png)
+
+---
+
+#### I made another list
+
+![List of things I CAN control](images/ControlList.png)
+
+---
+
+# I CAN CONTROL MY OWN BEHAVIORS!
+
+---
+
+Why is this guy so excited about that?
+
+***
+
+## Behaviors as they Relate to Influence
+
+---
+
+Maniacal laughter would make you think I'm crazy	
+
+---
+
+People adjust their own behavior to react to yours
+
+![Behavior Map](images/BehaviorMap.png)
+
+---
+
+Over time, acting like a leader grows trust and influence
+
+---
+
+<span>&there4;</span> Acting "Leader-y" grows my influence 
+
+... over time
+
+---
+
+I looked at my project again
+
+![Leadership Notes](images/LeaderNotes.png)
+
+---
+
+Leaders become so because they act so
+
+***
+
+## Behaviors, Influence, and Authority
+
+---
+
+If you demonstrate a pattern of convincing people to listen to you...
+
+![Authority As A Gift](images/AuthorityAsAGift.png)
+
+---
+
+There are many paths to Authority
+
+![Paths To Authority](images/PathsToAuthority.png)
+
+***
+
+## Leadership Behaviors - A quick caveat
+
+---
+
+Please note: these worked for *me*, and I'm weird
+
+![Self Portrait](images/Me.png)
+
+---
+
+Find what works for *you*
+
+![Pic of you](images/You.png)
+
+***
+
+## Leadership Behaviors
+
+---
+
+Leadership Behaviors:
+
+- Be Self-Aware
+- Questions, asking and answering
+- Be wrong (and right)
+- Share your network with people - Make introductions
+- Focus on solving the problem
+- Always focus on helping others
+
+---
+
+Be Self-Aware
+
+![Mirror](images/Mirror.png)
+
+---
+
+Questions - Ask them surgically
+
+![Situation being clarified](images/Clarify.png)
+
+---
+
+Questions - Answer them to help others
+
+![Co-learning](images/AnswerQuestions.png)
+
+---
+
+Be able to be wrong (or right) *graciously*
+
+![Argument](images/RedVsBlue.png)
+
+---
+
+Leverage your own network for others
+
+![Social Map](images/SocialMap.png)
+
+---
+
+Focus on solving the problem, not laying blame
+
+![Fire](images/Fire.png)
+
+---
+
+Always, always always help others 
+
+***
+
+Questions, Discussion, or The Gift of Time
+
+Thank you!
