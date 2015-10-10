@@ -43,6 +43,12 @@ The first year was just learning
 
 ---
 
+Leaders are defined by their followers
+
+![Leaders Have Followers](images/LeadersHaveFollowers.png)
+
+---
+
 Started looking for leadership opportunities
 
 ![Pursuit Of Authority](images/PursuitOfAuthority.png)
@@ -52,12 +58,6 @@ Started looking for leadership opportunities
 But you can't have authority as a newbie
 
 ![Authority Evades Me](images/AuthorityEvades.png)
-
----
-
-Leaders are defined by their followers
-
-![Leaders Have Followers](images/LeadersHaveFollowers.png)
 
 ---
 
@@ -137,9 +137,9 @@ Riders suggest destinations, but the horse chooses
 
 ---
 
-Riders and horses have good relationships (or carrots and sticks)
+Then why would the horse listen?
 
-![Horse and Rider playing checkers](images/HorseAndRiderCheckers.png)
+![Horse trusts Rider](images/Trust.png)
 
 ---
 
@@ -152,12 +152,6 @@ Influence can be negative
 Negative influence has effects, too!
 
 ![Horse moves to Otherton](images/Separation.png)
-
----
-
-Negativity and positivity both ripple outwards
-
-![Obligatory ripples](images/Ripples.png)
 
 ---
 
