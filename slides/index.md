@@ -17,6 +17,10 @@ John Strobel | @devunit1
 
 # Welcome and Introduction
 
+---
+
+And have a nice day
+
 ***
 
 ## A bit about my own story
