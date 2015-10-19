@@ -19,7 +19,7 @@ John Strobel | @devunit1
 
 ---
 
-And have a nice day
+And have a fantabulous day
 
 ***
 
