@@ -47,12 +47,6 @@ The first year was just learning
 
 ---
 
-Leaders are defined by their followers
-
-![Leaders Have Followers](images/LeadersHaveFollowers.png)
-
----
-
 Started looking for leadership opportunities
 
 ![Pursuit Of Authority](images/PursuitOfAuthority.png)
@@ -68,6 +62,12 @@ But you can't have authority as a newbie
 Through Observation, this became clear:
 
 ![Leadership is comprised of Authority and Influence](images/LeadershipAuthAndInf.png)
+
+---
+
+Leaders are defined by their followers
+
+![Leaders Have Followers](images/LeadersHaveFollowers.png)
 
 ***
 
